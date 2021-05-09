@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BitPrices</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <pre id="elm"></pre>
+
+    <script src="index.js"></script>
+    <script>
+      const node = document.getElementById("elm");
+      const app = Elm.Main.init({ node });
+    </script>
+  </body>
+</html>
