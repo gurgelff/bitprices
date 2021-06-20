@@ -62,7 +62,7 @@ customView model =
       text "Loading..."
 
     Success price ->
-      text <| "1 Bitoin = " ++ price ++ " in"
+      text <| "1 Bitcoin = " ++ price ++ " in"
 
 view: Model -> Html Msg
 view model =

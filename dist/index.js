@@ -6183,7 +6183,7 @@ var $author$project$Main$customView = function (model) {
 			return $elm$html$Html$text('Loading...');
 		default:
 			var price = model.a;
-			return $elm$html$Html$text('1 Bitoin = ' + (price + ' in'));
+			return $elm$html$Html$text('1 Bitcoin = ' + (price + ' in'));
 	}
 };
 var $elm$html$Html$div = _VirtualDom_node('div');
